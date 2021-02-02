@@ -26,8 +26,8 @@ def result():
         # print(soup.prettify())
 
         quotes = soup.find_all('div', {'class':'clearfix'})
-        print(len(quotes))
-        print(quotes)
+       
+        
 
         filename = 'happy' + '.csv'
         fw = open(filename, 'w+')
